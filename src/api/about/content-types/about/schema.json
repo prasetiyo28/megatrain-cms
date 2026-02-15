@@ -15,9 +15,37 @@
     "title": {
       "type": "string"
     },
-    "blocks": {
-      "type": "dynamiczone",
-      "components": ["shared.media", "shared.quote", "shared.rich-text", "shared.slider"]
+    "tentangKami": {
+      "type": "string"
+    },
+    "totalClient": {
+      "type": "string"
+    },
+    "relasiPemateri": {
+      "type": "string"
+    },
+    "eventDilaksanakan": {
+      "type": "string"
+    },
+    "whatsapp": {
+      "type": "string"
+    },
+    "telepon": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "alamat": {
+      "type": "text"
+    },
+    "partner": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
     }
   }
 }
